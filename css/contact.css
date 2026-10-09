@@ -1,0 +1,5 @@
+/* Contact page — Zoho "Talk to Us" form shown exactly like its standalone page: same off-white background, no extra box */
+.contact-form { background: #f9f1e4; padding: 0; }
+.contact-form iframe { display: block; width: 100%; height: 760px; min-height: 760px; border: 0; background: transparent; }
+@media (max-width: 960px) { .contact-form iframe { height: 860px; min-height: 860px; } }
+@media (max-width: 600px) { .contact-form iframe { height: 980px; min-height: 980px; } }
